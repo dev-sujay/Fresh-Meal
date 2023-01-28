@@ -1284,7 +1284,7 @@ footer .box p {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 1rem;
     justify-items: center;
-    width: 90vh;
+    width: 60%;
     margin: 0 auto;
     margin-bottom: 4rem;
 
@@ -1323,7 +1323,7 @@ footer .box p {
 
 .menu .menu-items {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     grid-gap: 3rem 2rem;
 
 

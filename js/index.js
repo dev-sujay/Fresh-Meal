@@ -36,12 +36,11 @@ document.querySelector(".nav-trigger").addEventListener("click", function () {
 
 
 
-
 const timerUpdater = () => {
 
-    const targetTime = new Date("19 november, 2022 23:59:59").getTime()
-
     const now = new Date().getTime()
+    const targetTime = new Date(`${new Date().getDate() + 2} ${new Date().toLocaleString('default', { month: 'long' })}, ${new Date().getFullYear()} 23:59:59`).getTime()
+
 
     const diff = targetTime - now
 
